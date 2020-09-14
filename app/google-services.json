@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "114712931646",
+    "firebase_url": "https://jatayu-8cb61.firebaseio.com",
+    "project_id": "jatayu-8cb61",
+    "storage_bucket": "jatayu-8cb61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114712931646:android:2b214d11553e7193",
+        "android_client_info": {
+          "package_name": "com.app.swachhbharat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114712931646-4o75qqeif1j1fch35belegrglnhnhjhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.swachhbharat",
+            "certificate_hash": "122a293392afa003c8d7a034ca20c440240b0e37"
+          }
+        },
+        {
+          "client_id": "114712931646-cmgcbqecjo9i0b7nc6b096l0bo12hd0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb-ub870rSbDFuMmrokumpfU8L3o4f2Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114712931646-cmgcbqecjo9i0b7nc6b096l0bo12hd0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:id="@+id/main_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="@string/welcome_to_swach_bharat_app"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="6dp"
+        android:textSize="24sp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/swachh_bharat_abhiyan"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_layout"
+        android:layout_below="@id/swachh_bharat_abhiyan"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/leaderboard"
+        android:textColor="#626ab7"
+        android:fontFamily="@font/lato_light"
+        android:shadowRadius="20"
+        android:shadowDy="20"
+        android:shadowDx="20"
+        android:id="@+id/leaderboard"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_layout"
+        android:layout_below="@id/leaderboard"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/upload"
+        android:onClick="upload"
+        android:fontFamily="@font/lato_light"
+        android:shadowRadius="20"
+        android:shadowDy="20"
+        android:textColor="#626ab7"
+        android:shadowDx="20"
+        android:id="@+id/upload"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_layout"
+        android:layout_below="@id/upload"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/about"
+        android:fontFamily="@font/lato_light"
+        android:shadowRadius="20"
+        android:textColor="#626ab7"
+        android:shadowDy="20"
+        android:shadowDx="20"
+        android:id="@+id/about"
+        />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_fileName="swachbharatmainmenuscreen.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/clean_bottom_animation"
+        android:layout_marginTop="50dp"/>
+
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:lottie_fileName="swachbharatloadingscreengreen.json"
+        android:visibility="gone"
+        app:lottie_autoPlay="false"
+        app:lottie_scale="1.5"
+        app:lottie_loop="true"
+        android:background="#38c172"
+        android:id="@+id/loading_animation"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Swachh Bharat</string>
+    <string name="welcome_to_swach_bharat_app">Swachh Bharat</string>
+    <string name="about">About</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="click_a_photo">Click A Photo</string>
+    <string name="select_from_gallery">Select From Gallery</string>
+    <string name="click_another_photo">Click Another Photo</string>
+    <string name="upload">Upload</string>
+    <string name="main_image">Main Image</string>
+    <string name="uploaded_successfully">Uploaded Successfully</string>
+    <string name="location">Location</string>
+</resources>
